@@ -1,0 +1,253 @@
+
+
+.brand {
+    margin-top: 70px;
+    margin-left: -17px;
+}
+
+#registration {
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 40px;
+	color: rgba(128, 128, 128, 0.425);
+	background-color: transparent;
+}
+
+.wrapper .container {
+    margin-top: -150px;
+}
+
+#title {
+    color: #297e21;
+    font-weight: 700;
+}
+
+.form-group .form-control, .input-group .form-control {
+    border: 1.4px solid #297e21;
+    color: #297e21;
+}
+
+.form-group .form-control, .input-group {
+    color: #297e21;
+}
+
+
+
+/* 
+FORM */
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: transparent;
+    margin-top: -160px;
+    margin-left: 120px;
+}
+.register-form{
+    padding: 10%;
+    margin-top: 10%;
+    color: #297e21;
+}
+
+#maxl1 {
+    margin: 12px;
+}
+
+.btnRegister{
+    float: right;
+    margin-top: 10px;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #e4e4e4;
+    color: #297e21;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+.btnRegister:hover {
+    background: #297e21;
+    transition: ease-in-out 0.4s;
+    color: white;
+  
+}
+
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+/* FORM */
+
+
+
+.footer {
+    background-color: #297e21;
+}
+
+.footer .container {
+    color: white;
+}
+
+.footer .copyright a {
+    color: white;
+}
+
+
+@media screen and (max-width: 670px){
+    
+    #registration {
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+    #title {
+        margin-top: 190px;
+        margin-left: 50px;
+    }
+
+    .n-logo {
+        margin-left: 50px;
+        width: 50px;
+        height: 50px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .first_part {
+        margin-left: -30px;
+        margin-top: 70px;
+    }
+
+    .second_part {
+        margin-left: -30px;
+        margin-top: 1px;
+    }
+
+    .btnRegister{
+        margin-right: 73px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 500px){
+
+    #registration {
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+    #title {
+        margin-top: 190px;
+        margin-left: 50px;
+    }
+
+    .n-logo {
+        margin-left: 50px;
+        width: 50px;
+        height: 50px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .first_part {
+        margin-left: -30px;
+        margin-top: 70px;
+    }
+
+    .second_part {
+        margin-left: -30px;
+        margin-top: 1px;
+    }
+
+    .btnRegister{
+        margin-right: 44px;
+    }
+
+
+}
+
+@media screen and (max-width: 365px){
+
+
+    #registration {
+        font-size: 50px;
+    }
+
+    #title {
+        margin-top: 160px;
+        margin-left: 50px;
+    }
+
+    .n-logo {
+        margin-left: 50px;
+        width: 50px;
+        height: 50px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .first_part {
+        margin-left: -30px;
+        margin-top: 90px;
+    }
+
+    .second_part {
+        margin-left: -30px;
+        margin-top: 4px;
+    }
+
+    .btnRegister{
+        margin-right: 44px;
+    }
+}

@@ -1,0 +1,259 @@
+body{
+	background-color: #e4e4e4;
+	margin: 0%;
+	padding: 0%;
+
+}
+
+.navbar {
+	height: 70px;
+}
+
+#sign_in {
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 40px;
+	color: rgba(128, 128, 128, 0.425);
+	background-color: transparent;
+}
+
+.title {
+	color: #297e21;
+}
+
+.btn-round {
+	background-color: #e4e4e4;
+}
+
+.container_ {
+	margin-top: 250px;
+	background-color: transparent;
+}
+
+.footer {
+	padding: 17px;
+}
+
+.container .row .card_footer a {
+	color: #297e21;
+}
+
+
+.wrapper .container_forms .row{
+	margin-top: -30px;
+}
+
+.container_forms .row .sign_in {
+	text-align: center;
+	margin-top: -50px;
+}
+
+.form-group {
+	max-width: 50%;
+	text-align: center;
+	margin-left: 205px;
+}
+
+.form-group .form-control, .input-group .form-control {
+    border: 1.3px solid #297e21;
+    color: #297e21;
+    font-weight: 400;
+}
+
+
+#username {
+	width: 50%;
+	margin-left: 220px;
+}
+
+#password {
+	width: 50%;
+	margin-left: 220px;
+}
+
+.remember_pass {
+	color: #297e21;
+}
+
+.register {
+	margin: 10px;
+	margin-bottom: 5px;
+}
+
+#register {
+	color: #297e21;
+}
+
+.input-group-focus {
+	border-color: #297e21;
+}
+
+
+.container .row .card_footer a:hover {
+	color: #e4e4e4;
+	background-color: rgb(41, 126, 33);
+}
+
+.footer {
+	background-color: rgb(41, 126, 33);
+	color: white;
+	height: 70px;
+}
+
+.footer .container nav {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.footer .copyright {
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+.footer .copyright a{
+	color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width: 766px){
+	
+	#sign_in {
+		font-size: 80px;
+		margin-top: -2px;
+	}
+	
+	.title {
+		margin-right: -8px;
+		margin-top: 150px;
+	}
+   
+	.n-logo {
+		margin-right: -8px;
+	}
+   
+	.form-group {
+		margin-left: 127px;
+	}
+
+
+	.remember_pass {
+		font-size: 13px;
+		margin: 4px;
+	}
+   
+	.footer {
+		font-size: 12px;
+		margin: 0px;
+	}
+
+}
+
+
+@media screen and (max-width: 670px){
+
+	#sign_in {
+		font-size: 80px;
+		margin-top: -2px;
+	}
+	
+	.title {
+		margin-right: -8px;
+		margin-top: 150px;
+	}
+   
+	.n-logo {
+		margin-right: -8px;
+	}
+   
+	.form-group {
+		margin-left: 127px;
+	}
+
+
+	.remember_pass {
+		font-size: 13px;
+		margin: 4px;
+	}
+   
+	.footer {
+		font-size: 12px;
+		margin: 0px;
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 500px){
+
+
+	#sign_in {
+		font-size: 80px;
+		margin-top: -2px;
+	}
+	
+	.title {
+		margin-right: -8px;
+		margin-top: 150px;
+	}
+   
+	.n-logo {
+		margin-right: -8px;
+	}
+   
+	.form-group {
+		margin-left: 127px;
+	}
+
+
+	.remember_pass {
+		font-size: 13px;
+		margin: 4px;
+	}
+   
+	.footer {
+		font-size: 12px;
+		margin: 0px;
+	}
+
+
+
+}
+
+@media screen and (max-width: 365px){
+	
+	#sign_in {
+		font-size: 50px;
+	}
+	
+	.title {
+		margin-right: -8px;
+		margin-top: 170px;
+	}
+   
+	.n-logo {
+		margin-right: -8px;
+	}
+   
+	.form-group {
+		margin-right: -8px;
+	}
+
+
+	.remember_pass {
+		font-size: 11px;
+		margin: 4px;
+	}
+   
+	.footer {
+		font-size: 9px;
+		margin: 0px;
+	}
+   
+
+}

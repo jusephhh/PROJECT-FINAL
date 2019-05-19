@@ -1,0 +1,102 @@
+/* navigation bar */
+
+.navbar {
+    background-color: #297e21;
+}
+.nav-item:hover {
+    font-size: 20px;
+}
+
+#header_home {
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.425);
+}
+
+
+/* contents */
+
+.row {
+    margin-top: -30px;
+}
+
+.content-left {
+    margin: 40px 0px 40px 50px;
+
+}
+
+.content-right {
+    margin-top: -70px;
+    text-align: center;
+    
+}
+
+.content-right .n-logo {
+    border-radius: 20px;
+    border: 1.7px solid #297e21;
+    margin-top: 30px;
+}
+
+.content-right .n-logo:hover {
+    border: 1.7px solid grey;
+    cursor: pointer;
+}
+
+.content-right .h1-seo {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.content-right h3 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+/* contents */
+
+
+
+
+
+/* footer */
+.footer {
+    background-color: #297e21;
+}
+
+.footer .container {
+    color: white;
+}
+
+.footer .copyright a {
+    color: white;
+}
+/* footer */
+
+
+
+
+/* media query */
+@media screen and (max-width: 991px)  {
+    .sidebar-collapse .navbar .navbar-nav {
+        background-color: #297e21;
+    }
+
+    .sidebar-collapse .navbar-collapse:before {
+        background: #297e21;
+    }
+
+    .navtabs .nav{
+        margin-left: 0px;
+    }
+
+    .content-left {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .content-right {
+        margin-top: 0px;
+    }
+
+}

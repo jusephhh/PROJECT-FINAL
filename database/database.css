@@ -1,0 +1,141 @@
+body {
+    background-color: #464646;
+}
+
+.navbar {
+    background-color: #297e21;
+}
+
+.nav-item:hover {
+    font-size: 20px;
+}
+
+#database {
+    font-size: 100px;
+    margin-top: -53px;
+    margin-left: -810px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.425);
+}
+
+.search_posts .form-control{
+    border: 1px solid #297e21;
+}
+
+.search_comments .form-control {
+    border: 1px solid #297e21;
+}
+
+.search_users .form-control{
+    border: 1px solid #297e21;
+}
+
+.search_sessions .form-control {
+    border: 1px solid #297e21;
+}
+
+.table {
+    background-color: #464646;
+    border-radius: 8px;
+}
+
+.table thead {
+    color: white;
+}
+
+.dashboard .row .card {
+    background-color: #464646;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 5px;
+    margin-left: 70px;
+}
+
+
+.btn, .navbar .navbar-nav>a.btn {
+    background-color: #297e21;
+}
+
+
+.database_settings {
+    margin-left: -100px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #297e21;
+    color: white;
+}
+
+.right_side {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#header_right {
+    color: #297e21;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#to_right {
+    color: #297e21;
+}
+
+.left_side .nav .nav-link{
+    color: white;
+}
+
+.left_side .nav .nav-link:hover {
+    background-color: #e4e4e4;
+    color: #297e21;
+}
+
+.nav-pills .nav-link {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.dropdown .dropdown-menu a {
+    padding: 10px;
+}
+
+.wrapper {
+    background-color: transparent;
+}
+
+
+
+.footer {
+    background-color: #297e21;
+}
+
+.footer .container {
+    color: white;
+}
+
+.footer .copyright a {
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .sidebar-collapse .navbar .navbar-nav {
+        background-color: #297e21;
+    }
+
+    .sidebar-collapse .navbar-collapse:before {
+        background: #297e21;
+    }
+}
+
+
+

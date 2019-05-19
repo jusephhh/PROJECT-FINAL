@@ -1,0 +1,163 @@
+
+/* navigation bar */
+
+.navbar {
+    background-color: #297e21;
+}
+
+.nav-item:hover {
+    font-size: 20px;
+}
+
+/* navigation bar */
+
+
+/* header montage */
+
+.brand .n-logo {
+    border-radius: 20px;
+    border: 1.7px solid white;
+}
+
+.brand .n-logo:hover {
+    border: 1.7px solid #297e21;
+    cursor: pointer;
+}
+
+.wrapper .page-header .page-header-image {
+    background-size: cover;
+    background-position: center;
+}
+
+/* header montage */
+
+/* profile contents */
+
+
+.navtabs .nav {
+    margin-left: 475px;
+    margin-top: -50px;
+}
+
+.nav-tabs>.nav-item>.nav-link.active {
+    background-color: #297e21;
+}
+
+.nav-tabs>.nav-item>.nav-link:hover {
+    background-color: #297e21;
+    color: white;
+    font-size: 17px;
+}
+
+#profile_posts {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.425);
+}
+
+#about_me {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.425);
+
+}
+
+#friends_header {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.425);
+}
+
+#photos_header {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.425);
+}
+
+#friends_cards {
+    text-align: center;
+    margin: 50px;
+    margin-top: -10px;
+}
+
+#photos_cards {
+    text-align: center;
+    margin: 50px;
+    margin-top: -10px;
+}
+
+#posts_cards {
+    text-align: center;
+    margin: 50px; 
+    margin-top: -12px;
+}
+
+
+/* profile contents */
+
+/* footer */
+
+.footer {
+    background-color: #297e21;
+}
+
+.footer .container {
+    color: white;
+}
+
+.footer .copyright a {
+    color: white;
+}
+
+/* footer */
+
+
+
+/* media query */
+@media screen and (max-width: 991px)  {
+    .sidebar-collapse .navbar .navbar-nav {
+        background-color: #297e21;
+    }
+
+    .sidebar-collapse .navbar-collapse:before {
+        background: #297e21;
+    }
+
+    .navtabs .nav{
+        margin-left: 0px;
+    }
+
+    #profile_posts {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size: 80px;
+        color: rgba(128, 128, 128, 0.425);
+    }
+    
+    #about_me {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size: 80px;
+        color: rgba(128, 128, 128, 0.425);
+    
+    }
+    
+    #friends_header {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size: 80px;
+        color: rgba(128, 128, 128, 0.425);
+    }
+    
+    #photos_header {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size: 80px;
+        color: rgba(128, 128, 128, 0.425);
+    }
+    
+}
